@@ -1,0 +1,113 @@
+/* Estilo General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f4f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fongo.png');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Contenedor Principal */
+#contenedor-principal {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/* Encabezado */
+#encabezado {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+#foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#informacion-personal {
+    flex: 1;
+}
+
+#informacion-personal h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+#informacion-personal h2 {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+#descripcion-personal {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Sección de Contacto */
+#contacto {
+    background-color: #e94e77;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#contacto h3 {
+    margin-top: 0;
+}
+
+/* Sección de Estudios, Experiencia y Referencias */
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Tabla de Referencias */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
